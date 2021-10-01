@@ -6,6 +6,7 @@ import Slider from "react-slick";
 import Icon from "./Icon";
 import Player from "./Player";
 import Connect from "./Connect";
+import Popular from "./Popular"
 
 const DynamicModal = dynamic(
     () => import('./Modal'),
@@ -167,6 +168,7 @@ const Hero = () => {
             >
                 <Connect />
             </DynamicModal>
+            <Popular />
         </>
     )
 }
