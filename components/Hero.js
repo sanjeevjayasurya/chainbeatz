@@ -7,6 +7,7 @@ import Icon from "./Icon";
 import Player from "./Player";
 import Connect from "./Connect";
 import Popular from "./Popular"
+import Footer from './Footer'
 
 const DynamicModal = dynamic(
     () => import('./Modal'),
@@ -169,6 +170,7 @@ const Hero = () => {
                 <Connect />
             </DynamicModal>
             <Popular />
+            <Footer />
         </>
     )
 }
