@@ -6,7 +6,7 @@
     &.active
         z-index: 10
         .head
-            background: $neutrals8
+            background: $neutrals1
             color: $blue
             +dark
                 background: $neutrals1
@@ -40,12 +40,12 @@
         top: 50%
         right: 27px
         transform: translateY(-50%)
-        fill: $neutrals2
+        fill: $neutrals8
         transition: all .2s
         +dark
             fill: $neutrals8
     &:hover
-        background: $neutrals8
+        background: $neutrals1
         color: $blue
         svg
             fill: $blue
@@ -64,8 +64,8 @@
     right: 0
     padding: 24px
     border-radius: 24px
-    background: $neutrals8
-    box-shadow: 0px 40px 64px -32px rgba(15, 15, 15, 0.15)
+    background: $neutrals1
+    box-shadow: inset 0 0 0 2px $neutrals3, 0 4px 12px rgba($neutrals1, .1)  
     visibility: hidden
     opacity: 0
     transform: translateY(3px)
@@ -87,7 +87,7 @@
         font-size: 32px
     &:hover,
     &.selectioned
-        color: $neutrals2
+        color: $neutrals8
         +dark
             color: $neutrals8
     &:not(:last-child)
