@@ -59,7 +59,7 @@ const Notification = ({ className }) => {
               {items.map((x, index) => (
                 <Link
                   className={styles.item}
-                  to={x.url}
+                  href={x.url}
                   onClick={() => setVisible(!visible)}
                   key={index}
                 >

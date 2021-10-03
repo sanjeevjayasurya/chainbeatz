@@ -4,7 +4,6 @@ import cn from "classnames";
 import OutsideClickHandler from "react-outside-click-handler";
 import styles from "./User.module.sass";
 import Icon from "../../Icon";
-import Theme from "../../Theme";
 
 const items = [
   {
@@ -104,7 +103,6 @@ const User = ({ className }) => {
                       <Icon name={x.icon} size="20" />
                     </div>
                     <div className={styles.text}>{x.title}</div>
-                    <Theme className={styles.theme} />
                   </div>
                 )
               )}

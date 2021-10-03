@@ -8,6 +8,7 @@ import Player from "./Player";
 import Connect from "./Connect";
 import Popular from "./Popular"
 import Footer from './Footer'
+import Header from './Header'
 
 const DynamicModal = dynamic(
     () => import('./Modal'),
@@ -80,6 +81,7 @@ const Hero = () => {
     const [visibleModalBid, setVisibleModalBid] = useState(false);
     return (
         <>
+        <Header />
             <div className={cn("section", styles.section)}>
                 <div className={cn("container", styles.container)}>
                     <div className={styles.head}>
